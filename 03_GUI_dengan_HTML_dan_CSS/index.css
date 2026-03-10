@@ -1,0 +1,9 @@
+.kotak-input {
+    display: block;
+    resize: none;
+}
+
+p > span {
+    color: coral; /* atau juga bisa pakai kode hex-nya, #FF7F50 */
+    font-weight: bold;
+}
