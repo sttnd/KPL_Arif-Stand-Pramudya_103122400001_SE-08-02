@@ -1,0 +1,10 @@
+{
+  // Visit https://aka.ms/tsconfig to read more about this file
+  "compilerOptions": {
+    "strict": true, // biar berkas JS patuh pada TS
+    "allowJs": true, // biar bisa mengkompilasi berkas JS
+    "checkJs": true, // biar bisa memeriksa berkas JS
+    "noEmit": true // biar tidak menghasilkan berkas JS baru
+  },
+  "include": ["./**/*.js"]
+}
