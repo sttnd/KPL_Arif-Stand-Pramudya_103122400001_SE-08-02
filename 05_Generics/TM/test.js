@@ -6,7 +6,7 @@ try {
     // Contoh tes 1: [1, 2, 3, 4, 5] mengembalikan [1, 2, 'Fizz', 4, 'Buzz']
     console.log("Seri: fizzBuzz");
     assert.deepStrictEqual(fb.fizzBuzz([1, 2, 3, 4, 5]), [1, 2, 'Fizz', 4, 'Buzz'], "Tes 1 gagal lolos");
-    console.log("✅ Tes 2 berhasil");
+    console.log("✅ Tes 1 berhasil");
 
     assert.deepStrictEqual(fb.fizzBuzz([15, 30, 45, 60, 75, 90, 105, 120, 135, 150, 165]), ['FizzBuzz', 'FizzBuzz', 'FizzBuzz', 'FizzBuzz', 'FizzBuzz', 'FizzBuzz', 'FizzBuzz', 'FizzBuzz', 'FizzBuzz', 'FizzBuzz', 'FizzBuzz'], "Tes 2 gagal lolos");
     console.log("✅ Tes 2 berhasil");
