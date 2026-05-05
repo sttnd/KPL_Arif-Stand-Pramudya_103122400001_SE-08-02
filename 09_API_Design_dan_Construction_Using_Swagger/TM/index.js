@@ -6,7 +6,6 @@ const PORT = 3000;
 
 app.use(express.json());
 
-// Dokumentasi Swagger
 app.use('/docs', swaggerUi.serve, swaggerUi.setup(specs));
 
 // Fungsi untuk membuat angka tetap berdasarkan nama
