@@ -1,0 +1,9 @@
+{
+  "name": "tm-12-unit-testing-debugging",
+  "version": "1.0.0",
+  "description": "Tugas Mandiri Modul 12 - Performance Analysis, Unit Testing, dan Debugging",
+  "type": "module",
+  "scripts": {
+    "test": "node --test"
+  }
+}
